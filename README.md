@@ -1,1 +1,1 @@
-### We present \textsc{traits}, a \textsc{t}ool for \textsc{r}evealing \textsc{a}ttributes and \textsc{i}dentifying \textsc{t}oxic and \textsc{s}afe 
+### We present **TRAITS**, a **T**ool for **R**evealing **A**ttributes and **I**dentifying **T**oxic and **S**afe profiles in online social networks
