@@ -19,10 +19,6 @@ from sklearn.metrics import silhouette_score
 
 random_state = 42
 
-sel = VarianceThreshold(threshold=0.2) # it leads us to equal silhouette using all features + 
-scaler = MinMaxScaler()
-random_state = 42
-
 #here we are using the clustering on embedding and prediction on interpretable featurs
 df_clustering_name = f'INTERPRETABLE_xmeans_TOXIC_NON_TOXIC_DIVISION_embeddings_CONCAT_3.csv' #this contains the clustering results
 df_classification_name = f'INTERPRETABLE_xmeans_TOXIC_NON_TOXIC_DIVISION_interpretable_CONCAT.csv' #this contains the classification results
