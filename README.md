@@ -28,6 +28,7 @@ https://huggingface.co/PwNzDust/openness_model
 
 ```kfold_val_PT.py``` reports the k-fold validation process for PivotTree both as classifier and as a selector with DT, KNN and Explaianble Boosting Machine. This code includes PT hyperparameters, similar to ```kfold_val_DT_EBM_LGB.py```. For PT, we refer to the implementation in  https://github.com/msetzu/pivottree.
 
+```Clusters_characterization_.ipynb``` specifies the code for visualization for radar charts and bar charts in the paper
 
 ### Additional Info
 ```interpretable_features.txt``` reports the list of interpretable features obtained through the _extract_features_ function with the resources and API described in the paper text.
