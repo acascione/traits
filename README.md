@@ -11,6 +11,9 @@ For Reddit users dataset used for case study, we redirect to [Reddit dataset abo
 
 TODO
 
+```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also inclue for each model the hyperparameter used for validation
+
+
 ### Additional Info
 ```interpretable_features.txt``` reports the list of interpretable features obtained through the _extract_features_ function with the resources and API described in the paper text.
 
