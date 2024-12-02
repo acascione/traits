@@ -10,6 +10,7 @@ For Reddit users dataset used for case study, we redirect to [Reddit dataset abo
 ### Code 
 
 TODO
+
 Trained Personality Detection models for each traits are available in:
 
 https://huggingface.co/PwNzDust/extraversion_model
