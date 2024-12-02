@@ -13,6 +13,8 @@ TODO
 
 ```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also inclue for each model the hyperparameter used for validation
 
+```kfold_val_PT.py``` reports the k-fold validation process for PivotTree both as classifier and as a selector with DT, KNN and Explaianble Boosting Machine. We refer to the implementation in  https://github.com/msetzu/pivottree - this code includes PT hyperparameters, as above
+
 
 ### Additional Info
 ```interpretable_features.txt``` reports the list of interpretable features obtained through the _extract_features_ function with the resources and API described in the paper text.
