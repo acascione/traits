@@ -10,6 +10,14 @@ For Reddit users dataset used for case study, we redirect to [Reddit dataset abo
 ### Code 
 
 TODO
+Trained Personality Detection models for each traits are available in:
+
+https://huggingface.co/PwNzDust/extraversion_model
+https://huggingface.co/PwNzDust/conscientiousness_model
+https://huggingface.co/PwNzDust/agreeableness_model
+https://huggingface.co/PwNzDust/neuroticism_model_30
+https://huggingface.co/PwNzDust/openness_model
+
 
 ```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also inclue for each model the hyperparameter used for validation
 
