@@ -24,6 +24,8 @@ https://huggingface.co/PwNzDust/neuroticism_model_30
 https://huggingface.co/PwNzDust/openness_model
 
 
+``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts, while ```aggregate_users_features.ipynb```  aggregates the info for each user
+
 ```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also inclue for each model the hyperparameter used for validation
 
 ```kfold_val_PT.py``` reports the k-fold validation process for PivotTree both as classifier and as a selector with DT, KNN and Explaianble Boosting Machine. This code includes PT hyperparameters, similar to ```kfold_val_DT_EBM_LGB.py```. For PT, we refer to the implementation in  https://github.com/msetzu/pivottree.
