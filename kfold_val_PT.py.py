@@ -8,8 +8,8 @@ import lightgbm as lgb
 from sklearn.metrics import make_scorer, accuracy_score
 import itertools
 
-from RuleTree import *
-from PivotTree import *
+from RuleTree_stz import *
+from PivotTree_stz import *
 
 from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import GridSearchCV, KFold
