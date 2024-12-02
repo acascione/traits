@@ -13,9 +13,13 @@ TODO
 Trained Personality Detection models for each traits are available in:
 
 https://huggingface.co/PwNzDust/extraversion_model
+
 https://huggingface.co/PwNzDust/conscientiousness_model
+
 https://huggingface.co/PwNzDust/agreeableness_model
+
 https://huggingface.co/PwNzDust/neuroticism_model_30
+
 https://huggingface.co/PwNzDust/openness_model
 
 
