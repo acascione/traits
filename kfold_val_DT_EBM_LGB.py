@@ -26,6 +26,10 @@ random_state = 42
 df_clustering_name = f'INTERPRETABLE_xmeans_TOXIC_NON_TOXIC_DIVISION_embeddings_CONCAT_3.csv' #this contains the clustering results
 df_classification_name = f'INTERPRETABLE_xmeans_TOXIC_NON_TOXIC_DIVISION_interpretable_CONCAT.csv' #this contains the classification results
 
+df_clustering = pd.read_csv(df_clustering_name)
+df_classification = pd.read_csv(df_classification_name)
+
+
 y = df_classification.cluster_preds #assign to Y the cluster predictions in the dataframe
 
 df_classification = df_classification.drop(columns = ['cluster_preds']) #drop the cluster column from the predictive variable
