@@ -23,6 +23,7 @@ https://huggingface.co/PwNzDust/openness_model
 
 Training pipeline specified in ```LongFormer_training.ipynb```
 
+```Evaluate_LongFormer_Classification.ipynb``` presents the code for evaluation of the trained black box models for personality detection
 
 ``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts
 
