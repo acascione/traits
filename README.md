@@ -9,8 +9,6 @@ For Reddit users dataset used for case study, we redirect to [Reddit dataset abo
 
 ### Code 
 
-TODO
-
 Trained Personality Detection models for each traits are available in:
 
 https://huggingface.co/PwNzDust/extraversion_model
@@ -24,7 +22,11 @@ https://huggingface.co/PwNzDust/neuroticism_model_30
 https://huggingface.co/PwNzDust/openness_model
 
 
-``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts, while ```aggregate_users_features.ipynb```  aggregates the info for each user
+``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts
+
+```aggregate_users_features.ipynb```  aggregates the info for each user
+
+```Clustering_process.ipynb``` reports the application fo k-means algorithm for toxic and safe users clustering
 
 ```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also includes for each model the hyperparameter used for validation
 
