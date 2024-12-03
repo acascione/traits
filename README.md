@@ -29,6 +29,8 @@ Training pipeline specified in ```LongFormer_training.ipynb```
 
 ```aggregate_users_features.ipynb```  aggregates the info for each user
 
+```Extract_personality_embeds_PIANO.py``` presents the code for extracting users embeddings
+
 ```Clustering_process.ipynb``` reports the application fo k-means algorithm for toxic and safe users clustering
 
 ```kfold_val_DT_EBM_LGB.py``` reports the k-fold validation process for Decision Tree, Explaianble Boosting Machine and Light Gradient Boosting. It also includes for each model the hyperparameter used for validation
