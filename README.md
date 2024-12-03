@@ -21,6 +21,8 @@ https://huggingface.co/PwNzDust/neuroticism_model_30
 
 https://huggingface.co/PwNzDust/openness_model
 
+Training pipeline specified in ```LongFormer_training.ipynb```
+
 
 ``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts
 
