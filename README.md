@@ -25,7 +25,7 @@ Training pipeline specified in ```LongFormer_training.ipynb```
 
 ```Evaluate_LongFormer_Classification.ipynb``` presents the code for evaluation of the trained black box models for personality detection
 
-For the texocity extraction, we refer to [Perspective API](https://perspectiveapi.com/)
+For the toxicity extraction, we refer to [Perspective API](https://perspectiveapi.com/)
 
 ``` extract_text_features.ipynb```  presents the code for extracting interpretable information from single texts
 
