@@ -65,6 +65,30 @@ param_grid = {
 }
 """
 
+"""
+# Define hyperparameter grid for Logistic Regression
+param_grid = {
+    'C': [0.001, 0.01, 0.1, 1],  # Regularization strength
+    'penalty': ['l2'],  # Type of regularization
+    'solver': ['lbfgs'],  # Optimization solver (supports L1 and ElasticNet)
+    'max_iter': [1000]  # Number of iterations
+}
+"""
+
+# Define hyperparameter grid for knn 
+"""
+param_grid = {
+    'n_neighbors': [1, 3, 5],  # Number of neighbors
+    'metric': ['euclidean'],   # Use Euclidean distance
+    'weights': ['uniform', 'distance']  # Weighting strategy
+}
+"""
+
+
+
+
+
+
 ## This is explored for Light Gradient Boosting Machine
 """
 param_grid = {
@@ -87,6 +111,8 @@ configurations = [dict(zip(keys, v)) for v in itertools.product(*values)]
 model = DecisionTreeClassifier()
 # model = ExplainableBoostingClassifier() for EBM
 # model = lgb.LGBMClassifier()  for LGB
+# model =  LogisticRegression()  for Logistic Reg
+# model =  KNeighborsClassifier()  for knn
 
 kf = KFold(n_splits=5, shuffle=True, random_state=42)
 
